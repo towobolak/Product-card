@@ -1,0 +1,19 @@
+body{
+    background: aqua;
+}
+.grid-container{
+    grid-template-columns: repeat(5, 1fr);
+}
+.grid-item{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item{
+    background-color: white;
+    padding: 30px;
+}
